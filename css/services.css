@@ -1,6 +1,6 @@
 .service {
   width: 100%;
-  padding: clamp(40px, 5vw, 60px) clamp(40px, 12vw, 180px);
+  padding: 60px 140px 10px;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -19,8 +19,8 @@
   align-items: flex-start;
 }
 
-.service-main-title {
-  margin-bottom: 25px;
+.service-title {
+  margin-bottom: 20px;
 }
 
 .big-description {
@@ -184,56 +184,9 @@
   margin: 0;
 }
 
-@media (max-width: 1024px) {
-  .service {
-    padding: 40px;
-  }
-
-  .material-cards {
-    flex-direction: column;
-    gap: 25px;
-  }
-}
-
-@media (max-width: 768px) {
-  .service-intro {
-    align-items: center;
-  }
-
-  .service-intro .big-title {
-    white-space: normal;
-    text-align: center;
-  }
-
-  .big-description {
-    text-align: center;
-  }
-
-  .material-cards {
-    border-left: none;
-    gap: 25px;
-  }
-
-  .step-item {
-    gap: 15px;
-  }
-
-  .step-circle {
-    width: 40px;
-    height: 40px;
-    font-size: 15px;
-  }
-
-  .step-content h4 span {
-    display: block;
-    margin-left: 0;
-    margin-top: 2px;
-  }
-}
-
 .why-us-section {
   width: 100%;
-  padding: clamp(60px, 8vw, 100px) clamp(20px, 5vw, 180px);
+  padding: 60px 140px 80px;
   background-color: #f9fafb;
   display: flex;
   justify-content: center;
@@ -325,6 +278,16 @@
 }
 
 @media (max-width: 1024px) {
+  .service,
+  .why-us-section {
+    padding: 40px 40px 10px;
+  }
+
+  .material-cards {
+    flex-direction: column;
+    gap: 25px;
+  }
+
   .why-us-grid {
     grid-template-columns: 1fr;
     max-width: 650px;
@@ -341,5 +304,46 @@
 
   .why-card-text {
     gap: 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service,
+  .why-us-section {
+    padding: 40px 20px 10px;
+  }
+
+  .service-intro {
+    align-items: center;
+  }
+
+  .service-intro .big-title {
+    white-space: normal;
+    text-align: center;
+  }
+
+  .big-description {
+    text-align: center;
+  }
+
+  .material-cards {
+    border-left: none;
+    gap: 25px;
+  }
+
+  .step-item {
+    gap: 15px;
+  }
+
+  .step-circle {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .step-content h4 span {
+    display: block;
+    margin-left: 0;
+    margin-top: 2px;
   }
 }

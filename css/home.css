@@ -236,7 +236,7 @@ header {
 
   padding: 0 100px 60px 100px;
 
-  background-image: url("https://i.pinimg.com/736x/92/a8/06/92a8066ea59dbea661631bd780927f9f.jpg");
+  background-image: url("../resources/service_bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -509,7 +509,7 @@ header {
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(10, 10, 10, 0.55) 0%,
+    rgba(10, 10, 10, 0.6) 0%,
     rgba(10, 10, 10, 0.3) 50%,
     rgba(10, 10, 10, 0.1) 100%
   );
@@ -810,7 +810,7 @@ header {
 
 @media (max-width: 768px) {
   .projects-section {
-    padding: 40px 50px;
+    padding: 40px;
   }
 
   .projects-header {
@@ -838,7 +838,7 @@ header {
   }
 
   .project-image {
-    height: 300px;
+    height: 200px;
   }
 
   .project-title {
