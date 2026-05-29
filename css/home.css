@@ -509,8 +509,8 @@ header {
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(10, 10, 10, 0.75) 0%,
-    rgba(10, 10, 10, 0.5) 50%,
+    rgba(10, 10, 10, 0.55) 0%,
+    rgba(10, 10, 10, 0.3) 50%,
     rgba(10, 10, 10, 0.1) 100%
   );
   z-index: 1;
@@ -538,6 +538,7 @@ header {
 .service-description {
   font-size: clamp(14px, 1.1vw, 16px);
   line-height: 1.7;
+  font-weight: 500;
   opacity: 0.85;
 }
 
@@ -626,8 +627,8 @@ header {
   .service::before {
     background: linear-gradient(
       180deg,
-      rgba(10, 10, 10, 0.7) 0%,
-      rgba(10, 10, 10, 0.2) 100%
+      rgba(10, 10, 10, 0.65) 0%,
+      rgba(10, 10, 10, 0.15) 100%
     );
   }
 
@@ -809,7 +810,7 @@ header {
 
 @media (max-width: 768px) {
   .projects-section {
-    padding: 40px 30px;
+    padding: 40px 50px;
   }
 
   .projects-header {
@@ -837,7 +838,7 @@ header {
   }
 
   .project-image {
-    height: 250px;
+    height: 300px;
   }
 
   .project-title {
@@ -957,6 +958,7 @@ header {
 @media (max-width: 1024px) {
   .about-section {
     flex-direction: column;
+    height: auto;
   }
 
   .about-image-wrapper {
